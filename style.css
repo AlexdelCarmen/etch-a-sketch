@@ -4,20 +4,17 @@ body{
     font-family: Helvetica;
     box-sizing: border-box;
     font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 8rem;
-    max-height: 8rem;
+    max-width: 480px;
+    max-height: 480px;
     border: 0.2rem solid black;  
+    margin-top: 10rem;
  }
-
-.pixel {
-    width: 0.5rem; 
-    height: 0.5rem; 
-    text-align: center;
-}
-
 
