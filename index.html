@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Etch-A-Sketch</h1>
+    <div class="container">
+    <div class="UI-container">
+        <h3>Drawing board controls</h3>
+        <div class="clear-button">
+            <button id="clear">Clear</button>
+        </div>
+        <div class="slider-container">
+            <p>Slide to increase the amount of pixels in drawing board</p>
+            <input type="range" name="color-slider" id="color-slider" min="1" max="100" value = "16">
+            <p id="slider-label"></p>
+        </div>
+        <div class="color-picker-container">
+            <p class="color-picker-label">Pick a color!</p>
+            <input type="color" name="" id="colorPicker" value="#ee1100">
+        </div>
+        <div class="eraser-container">
+            <button id="eraser">Eraser</button>
+        </div>
+    </div>
     <div class="main-container"></div>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
+        </div>
 </body>
 
 </html>
